@@ -1,5 +1,3 @@
-// const { Vue } = require("vue")
-
 const app = Vue.createApp({
     data() {
         return {
