@@ -1,7 +1,10 @@
+const nameFromURL = window.location.search.split('=')[1]
+const myName = nameFromURL || 'Аноним'
+
 const app = Vue.createApp({
     data() {
         return {
-            title: 'Привет, Аноним',
+            name: myName,
             message: 'Нажми на кнопку, чтобы выиграть'
         }
     },
